@@ -1,0 +1,19 @@
+.box1{
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:576px)
+{
+    .box1
+    {
+        background-color: greenyellow;
+    }
+}
